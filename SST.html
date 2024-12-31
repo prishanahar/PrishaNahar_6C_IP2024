@@ -6,7 +6,37 @@ body{
 font-family: 'Raleway', sans-serif;
 background: linear-gradient(orange, white, green);
 }
-        .navbar a {
+        hr {
+            margin: 10px 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px;
+        }
+        ul li::before {
+            content: "•";
+            color: #00000;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: 0em;
+        }
+        table {
+            width: 70%;
+            margin: 10px auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 3px solid #000;
+	}
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+	.navbar a {
             float: left;
             display: block;
             color: white;
@@ -75,6 +105,8 @@ background: linear-gradient(orange, white, green);
 	</div> 
 <a href="about.html">About</a>
 </div>
+<body align= "center">
+<br>
 <h1> <p align = "center"> Welcome to SOCIAL STUDIES Project page </p>
 <table border = "3" width ="70%" align = "center">
 <tr bgcolor="lightblue">
